@@ -9,18 +9,20 @@ main {
   background-size: contain;
 }
 
-.logo {
-  width: 100%;
+.logo-container {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.logo {
+  width: 50%;
+  height: 50%;
+}
+
 .logo img {
   width: 100%;
-  margin-right: 170px;
-  margin-bottom: 80px;
 }
 
 .text {
